@@ -1,0 +1,51 @@
+.support-form {
+	margin: 10px 0;
+}
+.support-form textarea {
+	margin: 10px 0;
+	resize: none;
+}
+
+.rocket-notice {
+	padding: 15px 10px;
+	margin: 10px 0;
+	border-radius: 3px;
+	border: 1px solid;
+}
+
+.rocket-notice.success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.rocket-notice.fail {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.igomoon-news-widget {
+	padding: 0;
+}
+.igomoon-news-widget li {
+	list-style-type: none;
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+	
+}
+
+#editor {
+	border: 1px solid #ddd;
+}
+
+.upload-error {
+	display:block;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	padding: 20px;
+	border-radius: 4px;
+	max-width: 270px;
+	margin: 5px 0;
+}

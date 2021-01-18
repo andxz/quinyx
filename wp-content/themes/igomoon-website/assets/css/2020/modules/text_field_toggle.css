@@ -1,0 +1,33 @@
+.text-field-toggle-header {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.toggler{
+    position: relative;
+    cursor: pointer;
+}
+
+.toggler::after{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    right: 5px;
+    border: solid #273697;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 14px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: all ease .3s;
+    height: 14px;
+    margin-top: -10px;
+}
+
+.toggle-wrapper.active > .toggler::after{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: -5px;
+}

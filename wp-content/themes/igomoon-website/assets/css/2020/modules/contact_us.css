@@ -1,0 +1,34 @@
+.contact-head{
+    height: 55px;
+}
+
+.schooltype-headline{
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.school-repeater-headline{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.school-contact-info{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.contact-link{
+    color: #000;
+}
+
+.contact-link:hover{
+    color: #273697;
+}
+
+.blue-link-contact-head{
+    color: #2e409c;
+    font-weight: 400;
+}

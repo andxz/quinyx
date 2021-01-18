@@ -1,0 +1,407 @@
+.black-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1330px;
+}
+
+.display-none{
+    display:none;
+}
+
+.page-content-section {
+    position: relative;
+    padding: 0px;
+}
+
+/* Menu */
+
+.nav-primary {
+    position: relative;
+    top: 0px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.nav-secondary{
+    position: relative;
+    background: transparent;
+}
+
+.scrolled .nav-primary {
+    top: 0px;
+}
+
+.title-area {
+    float: none;
+    width: 250px;
+    padding: 0;
+    top: 0px;
+    left: 20px;
+    position: relative;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.scrolled .title-area {
+    top: 0px;
+}
+
+.site-header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: auto!important;
+    background-color: #fff;
+    z-index: 999;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    padding: 0px;
+}
+
+.dark_menu .site-header{
+    background-color: #121F45;
+}
+
+.scrolled .site-header,
+.scrolled.dark_menu .site-header{
+    background-color: #fff;
+}
+
+.nav-primary .genesis-nav-menu a{
+    text-transform: uppercase;
+}
+
+.nav-primary .genesis-nav-menu a:hover {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.nav-primary .genesis-nav-menu .sub-menu a:hover {
+    background-color: #fff;
+}
+
+.site-header .sub-menu .sub-menu {
+    margin-top: auto;
+    position: relative;
+    left: auto;
+}
+
+.site-header > .wrap,
+.site-header .nav-secondary > .wrap{
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 20px;
+}
+
+.genesis-nav-menu a {
+    color: #333;
+    display: block;
+    padding: 10px 20px;
+}
+
+.genesis-nav-menu .sub-menu .sub-menu {
+    margin: 0px;
+    opacity: 1;
+}
+
+
+.menu-sub-headline > a {
+    font-size: 22px!important;
+    line-height: 22px!important;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 40px 40px 0px 40px !important;
+}
+
+.site-header .sub-menu .sub-menu a{
+    color: #244192;
+    font-size: 16px!important;
+    line-height: 28px!important;
+    font-weight: 600;
+    text-transform: none;
+    padding: 10px 40px 0px 40px;
+}
+
+.genesis-nav-menu .sub-menu a {
+    background-color: #fff;
+    color: #244192;
+    border: none;
+    border-top: none;
+    padding: 20px;
+    position: relative;
+    width: 315px;
+}
+
+.site-header .sub-menu {
+    border-top: none;
+}
+
+.read-about-all-schools{
+    padding: 10px 0px 40px 0px;
+    background-color: #fff;
+}
+
+.genesis-nav-menu > li > a,
+.nav-primary .genesis-nav-menu > li > a,
+.nav-secondary .genesis-nav-menu > li > a,
+.nav-primary .genesis-nav-menu .current-menu-item > a{
+    color: #333;
+}
+
+.dark_menu .genesis-nav-menu > li > a,
+.dark_menu .nav-primary .genesis-nav-menu > li > a,
+.dark_menu .nav-secondary .genesis-nav-menu > li > a{
+    color: #fff;
+}
+
+.scrolled.dark_menu .genesis-nav-menu > li > a,
+.scrolled.dark_menu .nav-primary .genesis-nav-menu > li > a,
+.scrolled.dark_menu .nav-secondary .genesis-nav-menu > li > a{
+    color: #333;
+}
+
+.site-header .cta-button-white {
+    margin-right: 20px;
+    background-color: #244192;
+}
+
+.site-header .cta-button-white a {
+    color: #fff!important;
+    padding: 0px!important;
+    font-weight: 400;
+}
+
+.site-header .cta-button-white a:hover {
+    color: #fff!important;
+}
+
+.dark_menu .site-header .cta-button-white {
+    background-color: #fff;
+}
+
+.dark_menu .site-header .cta-button-white a {
+    color: #333!important;
+}
+
+.dark_menu .site-header .cta-button-white a:hover {
+    color: #333!important;
+}
+
+.scrolled.dark_menu .site-header .cta-button-white {
+    background-color: #244192;
+}
+
+.scrolled.dark_menu .site-header .cta-button-white a {
+    color: #fff!important;
+}
+
+.scrolled.dark_menu .site-header .cta-button-white a:hover {
+    color: #fff!important;
+}
+
+.logos {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+.logos__logo.logos__logo--black{
+    opacity: 1;
+}
+
+.logos__logo.logos__logo--white{
+    opacity: 1;
+}
+
+.dark_menu .logos__logo.logos__logo--black{
+    opacity: 0;
+}
+
+.dark_menu .logos__logo.logos__logo--white{
+    opacity: 1;
+}
+
+.scrolled.dark_menu .logos__logo.logos__logo--black{
+    opacity: 1;
+}
+
+.scrolled.dark_menu .logos__logo.logos__logo--white{
+    opacity: 0;
+}
+
+
+
+
+/* Footer */
+
+
+.site-creds {
+    padding: 0px;
+    position: relative;
+}
+
+@media (max-width: 1000px) {
+
+    .menu-open .site-header .widget-area {
+        background-color: #fff;
+    }
+
+    .nav-primary{
+        padding: 0px 15px 0px 15px;
+    }
+
+    .nav-secondary {
+        text-transform: uppercase;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .dark_menu .site-header .cta-button-white a {
+        color: #fff!important;
+    }
+    
+    .dark_menu .site-header .cta-button-white a:hover {
+        color: #fff!important;
+    }
+
+    .nav-click{
+        float: right;
+        content: '';
+        display: block;
+        top: 50%;
+        right: 5px;
+        border: solid #273697;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        width: 14px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all ease .3s;
+        height: 14px;
+        margin-top: -10px;
+    }
+
+    .genesis-nav-menu li, 
+    .site-header ul.genesis-nav-menu, 
+    .site-header .search-form {
+        float: none;
+        margin-bottom: 0px;
+    }
+
+    .site-header > .wrap, 
+    .site-header .nav-secondary > .wrap {
+        padding: 0px;
+    }
+
+    .genesis-nav-menu .menu-item, 
+    .genesis-nav-menu .sub-menu .menu-item {
+        display: block;
+        text-align: left;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .dark_menu .genesis-nav-menu > li > a, 
+    .dark_menu .nav-primary .genesis-nav-menu > li > a, 
+    .dark_menu .nav-secondary .genesis-nav-menu > li > a {
+        color: #333;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 600;
+        padding: 0px;
+    }
+
+    .site-header{
+        background-color: #E8EBF4!important;
+        height: 90px!important;
+    }
+
+    .title-area {
+        left: 0px;
+    }
+
+    .logos {
+        top: 18px;
+    }
+
+    .logos__logo.logos__logo--black{
+        opacity: 1;
+    }
+    
+    .logos__logo.logos__logo--white{
+        opacity: 0;
+    }
+    
+    .dark_menu .logos__logo.logos__logo--black{
+        opacity: 1;
+    }
+    
+    .dark_menu .logos__logo.logos__logo--white{
+        opacity: 0;
+    }
+    
+    .scrolled.dark_menu .logos__logo.logos__logo--black{
+        opacity: 1;
+    }
+    
+    .scrolled.dark_menu .logos__logo.logos__logo--white{
+        opacity: 0;
+    }
+
+    .menu-open #mobile-menu span, 
+    .menu-open #mobile-menu span:before, 
+    .menu-open #mobile-menu span:after, 
+    .scrolled .menu-open #mobile-menu span, 
+    .scrolled .menu-open #mobile-menu span:before, 
+    .scrolled .menu-open #mobile-menu span:after,
+    #mobile-menu span, #mobile-menu span:before, 
+    #mobile-menu span:after {
+        background-color: #050812;
+    }
+
+    .menu-open #mobile-menu span{
+        background-color: transparent;
+    }
+
+    .menu-open #mobile-menu span:before, 
+    .menu-open #mobile-menu span:after{
+        background-color: #050812;
+    }
+
+    .dark_menu .site-header .cta-button-white {
+        background-color: #244192;
+        text-align: center;
+        color: #fff!important;
+        margin: auto;
+    }
+
+    .dark_menu .site-header .cta-button-white:hover {
+        color: #fff!important;
+        opacity: 1;
+    }
+
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    /* Footer */
+
+    .site-creds__friskola, .site-creds__almega {
+        float: none;
+        max-height: 52px;
+        vertical-align: middle;
+        position: relative;
+        top: -5px;
+        margin-left: 10px;
+    }
+    
+}

@@ -1,0 +1,57 @@
+/* PRIMARY MENU */
+.nav-primary .genesis-nav-menu a {
+	border-radius: 0;
+	color: #; /*CHANGE THIS*/
+	letter-spacing: 0;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.genesis-nav-menu .sub-menu {
+	text-align: left;
+}
+
+.nav-primary a:hover,
+.nav-primary .current-menu-item > a,
+.nav-primary .current-menu-ancestor a,
+.genesis-nav-menu .sub-menu a:hover,
+.genesis-nav-menu .sub-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover {
+	background: #; /*CHANGE THIS*/
+	text-decoration: none !important;
+	color: #fff;
+}
+
+.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+.genesis-nav-menu .sub-menu .current-menu-item > a {
+	background: #; /*CHANGE THIS*/
+}
+
+.genesis-nav-menu .sub-menu a {
+	background: #; /*CHANGE THIS*/
+	color: #fff;
+}
+
+.genesis-nav-menu .sub-menu a:hover {
+	background: #; /*CHANGE THIS*/
+}
+
+/* SECONDARY MENU */
+.site-header .genesis-nav-menu a {
+	background: #; /*CHANGE THIS*/
+	font-weight: 300;
+}
+
+.site-header .genesis-nav-menu .sub-menu a {
+	color: #fff;
+}
+
+
+/* Landscape tablets */
+@media only screen and (max-width: 1024px) {}
+
+/* tablets */
+@media only screen and (max-width: 767px) {}
+
+/* phones */
+@media only screen and (max-width: 580px) {}

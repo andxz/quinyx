@@ -1,0 +1,16 @@
+.two-blocks-text{
+    font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;	
+}
+
+.two-blocks-img{
+    min-height: 268px;
+}
+
+.sub-rubrik-two-blocks{
+    font-size: 14px;
+	line-height: 42px;
+    font-weight: 600;
+    color: #244192;
+}

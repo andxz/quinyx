@@ -1,0 +1,159 @@
+/* Forms */
+
+.gform_wrapper .gform_footer {
+	padding: 0px !important;
+	margin: 10px 0 0 !important;
+}
+
+/*
+.gform_wrapper .top_label .gfield_label {
+    display: none !important;
+    line-height: 1.3;
+}
+*/
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label {
+	display: none !important;
+}
+
+.button {
+    background-color: #244192 !important;
+    border: none;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 24px !important;
+    -webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	border-radius: 0px; 
+	display: block !important;
+	margin: auto !important;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .1);
+
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+	/* border: 1px solid #69AEB8 !important; */
+	padding: 14px !important;
+}
+
+button:hover, input:hover[type="button"], input:hover[type="reset"], input:hover[type="submit"], .button:hover {
+    background-color: transparent !important;
+    border: 1px solid #244192 !important;
+    color: #244192 !important;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .1);
+
+}
+
+input:focus, textarea:focus, select:focus {
+    border: 1px solid #244192 !important;
+    outline: none;
+}
+
+::-webkit-input-placeholder { 
+	font-weight: 400;
+    color: #818388 !important;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 5px 4px;
+    letter-spacing: normal;
+    padding: 14px !important;
+    background-color: #E8EBF4;
+    border: none;
+}
+
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 0px !important;
+    width: 100% !important;
+}
+
+.gform_wrapper textarea.medium {
+    height: 160px;
+    width: 100%;
+    padding: 14px;
+    background-color: #E8EBF4;
+    border: none;
+
+}
+
+.gform_wrapper div.validation_error {
+	color: #777 !important;
+    /* border-top: 2px solid #69AEB8 !important; */
+    /* border-bottom: 2px solid #69AEB8 !important; */
+}
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    margin-bottom: 6px!important;
+    border-top: none !important;
+    border-bottom: none !important;
+    padding-bottom: 6px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    background-color: transparent !important;
+}
+
+
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    /* border: 1px solid #69AEB8 !important; */
+	background-color: rgba(105,174,184, 0.2) !important;
+}
+
+.gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    max-width: 100% !important;
+}
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: 100% !important;
+    padding: 20px;
+}
+
+.gfield .gfield_error .gfield_contains_required .field_sublabel_below field_description_below .gfield_visibility_visible {
+	max-width: 100% !important;	
+}
+
+
+.gform_wrapper.gform_validation_error.gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    max-width: 100%!important;
+}
+
+.gform_wrapper .validation_message {
+    color: #333 !important;
+    display: none;
+}
+
+.gform_wrapper select{
+    background-color: #E8EBF4;
+    border: none;
+    padding: 14px !important;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: normal;
+}
+
+select {
+    color: #273697;
+    /* margin: 50px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://stackoverflow.com/favicon.ico) 96% / 15% no-repeat #EEE; */
+}
+
+body .gform_wrapper ul li.gfield {
+    margin-top: 0px !important;
+    margin-bottom: 1rem;
+}
+
+.gform_wrapper {
+    margin-top: 0px !important;
+}

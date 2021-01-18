@@ -1,0 +1,1 @@
+<section class="page-content-section image-block bg-cover dark" style="background-image: url(<?= $content['image_block_image']['url'] ?>)" title="<?= the_title() ?>"></section>

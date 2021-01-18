@@ -1,0 +1,26 @@
+.reapeater-icon{
+    width: 38px;
+}
+
+/* .four-blocks-repeater{
+    min-width: 285px;
+} */
+
+.reapter-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.margin-top-minus-100 {
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+}
+.margin-top-minus-100 .container {
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+}

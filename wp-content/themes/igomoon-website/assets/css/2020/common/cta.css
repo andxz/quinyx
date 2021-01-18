@@ -1,0 +1,108 @@
+.cta-button{
+    visibility: visible;
+    background-color: #273697;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 800;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+
+.cta-button:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: .5;
+    padding: 15px 100px;
+}
+
+.cta-button-white{
+    visibility: visible;
+    background-color: #fff;
+    border: none;
+    color: #273697!important;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 800;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cta-button-white:hover {
+    text-decoration: none;
+    color: #273697;
+    opacity: .5;
+}
+
+
+.white-cta-button{
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 5px;
+    box-shadow: 5px 10px 18px #dae2fb;
+    transition: all .2s ease-in-out;
+}
+
+.white-cta-button:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #244192;
+    padding: 5px 30px;
+    
+}
+
+.blue-link{
+    color: #2e409c;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.blue-link:hover{
+    opacity: .5;
+}
+
+.arrow-down{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+@media screen and (max-width: 767px) {
+
+    .cta-button:hover{
+        background-color: #273697;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .cta-button-mobile-white,
+    .cta-button-mobile-white:hover{
+        background-color: #fff;
+        color: #2e409c;
+        width: 100%;
+    }
+
+}

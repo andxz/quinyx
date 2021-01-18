@@ -1,0 +1,10 @@
+.img-top-field{
+    position: relative;
+    min-height: 466px;
+}
+
+.img-top-field-blurb{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}

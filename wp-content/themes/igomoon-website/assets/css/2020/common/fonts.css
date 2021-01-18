@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+	line-height: 1.6;
+	color: #050812;
+}
+
+p {
+	margin: 0 0 16px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 600;	
+}
+
+h3 {
+	font-size: 26px;
+	line-height: 40px;
+	font-weight: 400;	
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+h6 {
+	font-size: 16px;
+	line-height: 20px; 
+}
+
+a {
+	color: #FFF;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+}
+
+.blue{
+    color: #273697;
+}
+
+.blue-text{
+    color: #273697;
+    font-size: 16px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.dark-blue-text{
+	color: #244192;
+}
+
+@media screen and (max-width: 767px) {
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 600;	
+}
+
+}

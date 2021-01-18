@@ -1,0 +1,138 @@
+# Translation of Plugins - Genesis eNews Extended - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Genesis eNews Extended - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-17 11:48:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Genesis eNews Extended - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://kraft.blog/"
+msgstr "https://kraft.blog/"
+
+#: class-bjgk-genesis-enews-extended.php:370
+msgid "Display link to privacy policy?"
+msgstr "Visa länk till integritetspolicy?"
+
+#. Author of the plugin/theme
+msgid "Brandon Kraft"
+msgstr "Brandon Kraft"
+
+#. Plugin URI of the plugin/theme
+msgid "https://kraft.blog/genesis-enews-extended/"
+msgstr "https://kraft.blog/genesis-enews-extended/"
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis eNews Extended"
+msgstr "Genesis eNews Extended"
+
+#: class-bjgk-genesis-enews-extended.php:365
+msgid "Button Text"
+msgstr "Knapptext"
+
+#: class-bjgk-genesis-enews-extended.php:364
+msgid "Go"
+msgstr "Ok"
+
+#: class-bjgk-genesis-enews-extended.php:359
+msgid "E-Mail Input Text"
+msgstr "Inmatningstext för e-post"
+
+#: class-bjgk-genesis-enews-extended.php:358
+msgid "E-Mail Address"
+msgstr "E-postadress"
+
+#: class-bjgk-genesis-enews-extended.php:354
+msgid "Last Name Input Text"
+msgstr "Inmatningstext för efternamn"
+
+#: class-bjgk-genesis-enews-extended.php:349
+msgid "First Name Input Text"
+msgstr "Inmatningstext för förnamn"
+
+#: class-bjgk-genesis-enews-extended.php:344
+msgid "Open confirmation page in same window?"
+msgstr "Öppna sidan för bekräftelses i samma fönster?"
+
+#: class-bjgk-genesis-enews-extended.php:339
+msgid "Not all services use hidden fields."
+msgstr "Inte alla tjänster använder dolda fält."
+
+#: class-bjgk-genesis-enews-extended.php:337
+msgid "Hidden Fields"
+msgstr "Dolda fält"
+
+#: class-bjgk-genesis-enews-extended.php:332
+msgid "Last Name Field"
+msgstr "Fält för efternamn"
+
+#: class-bjgk-genesis-enews-extended.php:327
+msgid "First Name Field"
+msgstr "Fält för förnamn"
+
+#: class-bjgk-genesis-enews-extended.php:322
+msgid "E-Mail Field"
+msgstr "Fält för e-post"
+
+#: class-bjgk-genesis-enews-extended.php:317
+msgid "Form Action"
+msgstr "Formuläråtgärd"
+
+#: class-bjgk-genesis-enews-extended.php:311
+msgid "Google/Feedburner ID"
+msgstr "Google/Feedburner ID "
+
+#: class-bjgk-genesis-enews-extended.php:303
+msgid "Text Displayed If Subscribed"
+msgstr "Text visas om du prenumererar"
+
+#: class-bjgk-genesis-enews-extended.php:299
+msgid "Text Displayed If Confirmation Needed"
+msgstr "Text visas om bekräftelse behövs"
+
+#: class-bjgk-genesis-enews-extended.php:293
+#: class-bjgk-genesis-enews-extended.php:353
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: class-bjgk-genesis-enews-extended.php:289
+#: class-bjgk-genesis-enews-extended.php:348
+msgid "First Name"
+msgstr "Förnamn"
+
+#: class-bjgk-genesis-enews-extended.php:286
+msgid "Show Fields:"
+msgstr "Visa fält:"
+
+#: class-bjgk-genesis-enews-extended.php:267
+msgid "MailPoet List"
+msgstr "MailPoet-lista"
+
+#: class-bjgk-genesis-enews-extended.php:252
+msgid "Text To Show After Form"
+msgstr "Text som ska visas efter formulär"
+
+#: class-bjgk-genesis-enews-extended.php:248
+msgid "Text To Show Before Form"
+msgstr "Text som ska visas före formulär"
+
+#: class-bjgk-genesis-enews-extended.php:243
+msgid "Title"
+msgstr "Titel"
+
+#: class-bjgk-genesis-enews-extended.php:59
+msgid "Genesis - eNews Extended"
+msgstr "Genesis - eNews Extended"
+
+#: class-bjgk-genesis-enews-extended.php:56
+msgid "Displays subscribe form"
+msgstr "Visar prenumerationsformulär"
+
+#: class-bjgk-genesis-enews-extended.php:50
+msgid "Check your inbox or spam folder now to confirm your subscription."
+msgstr "Kontrollera din inkorg eller skräppostmapp nu för att bekräfta ditt prenumeration."

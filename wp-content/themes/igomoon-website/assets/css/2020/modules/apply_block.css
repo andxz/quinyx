@@ -1,0 +1,44 @@
+.text_apply_block_popup{
+    background-color: #244192;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.forskola-info,
+.grundskola-info,
+.school-types{
+    display: none;
+}
+
+.module-apply-block .gform_fields{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.module-apply-block .gform_fields .gfield{
+    flex: 1 1 50% !important;
+    width: 50% !important;
+    max-width: 50% !important;
+}
+
+.module-apply-block .gform_fields .gfield.gfield_html,
+.module-apply-block .gform_fields .gfield.full-width{
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.module-apply-block .gform_fields .gfield input{
+    width: calc(100% - 8px) !important;
+}
+
+@media (max-width: 600px) {
+
+    .module-apply-block .gform_fields .gfield{
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+}
