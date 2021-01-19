@@ -269,7 +269,7 @@ add_action('genesis_footer', function() {
 	
 	?>
 	
-	<section class="page-content-section footer dark-blue-bg center pt-5 pt-lg-5 px-lg-5">
+	<section class="page-content-section footer dark-green-bg center pt-5 pt-lg-5 px-lg-5">
 		
 		<div class="wrap flex-container">
 		
@@ -358,7 +358,7 @@ add_action('genesis_footer', function() {
 		
 	</section>	
 	
-	<section class="site-creds dark-blue-bg text-white pt-4 pb-5 p-lg-5">
+	<section class="site-creds dark-green-bg text-white pt-4 pb-5 p-lg-5">
 		
 				<div class="site-creds__image">
 								
