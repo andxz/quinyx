@@ -13,9 +13,15 @@
                     <div class="blurb-top-field pb-3"><?= $content['blurb'] ?></div>
                  <?php } ?>
 
-                <?php if( $content['top_field_cta_link'] ) { ?>
-                    <a href="<?= $content['top_field_cta_link'] ?>" class="cta-button cta-button-mobile-white"><?= $content['top_field_cta_text'] ?></a>
-                 <?php } ?>
+                <?php if( $content['cta_repeater'] ) { ?>
+                    <?php foreach( $content['cta_repeater'] as $item ) : ?>
+
+                        <?php if( $item['top_field_cta_link'] ) { ?>
+                            <a href="<?= $item['top_field_cta_link'] ?>" class="<?= $item['btn-color']?>"><?= $item['top_field_cta_text'] ?></a>
+                        <?php } ?>
+                    
+                    <?php endforeach ; ?>
+                <?php } ?>
 
             </div>
             </div>

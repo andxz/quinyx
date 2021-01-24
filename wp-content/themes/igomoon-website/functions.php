@@ -368,7 +368,7 @@ add_action('genesis_footer', function() {
 				
 			</div>
 		
-		<div class="site-creds__copy">Copyright &copy; <?= date('Y') ?> Mubarak Utbildning AB</div>
+		<div class="site-creds__copy">&copy; Quinyx <?= date('Y') ?></div>
 			
 		<?php if(get_field('friskolornas_riskforbund_image', 'option') ) { ?>
 			

@@ -1,4 +1,4 @@
-<section class="module module-cta-block py-5 <?= $content['background']?>">
+<section class="module module-cta-block py-5 text-white <?= $content['background']?>">
 
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center mx-auto">

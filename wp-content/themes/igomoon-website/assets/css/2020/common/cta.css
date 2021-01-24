@@ -1,8 +1,10 @@
-.cta-button{
+.cta-button, 
+.green-cta-button,
+.pink-cta-button {
     visibility: visible;
-    background-color: #273697;
+    background-color: #fff;
     border: none;
-    color: #fff;
+    color: #004851;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -12,15 +14,35 @@
     font-weight: 800;
     cursor: pointer;
     text-transform: uppercase;
-    transition: all .2s ease-in-out;
+    /* transition: all .2s ease-in-out; */
+    border-radius: 32px;
 }
 
 .cta-button:hover {
     text-decoration: none;
+    color: #004851;
+    opacity: .5;
+}
+
+.green-cta-button{
+    background-color: #004851;
+    color: #fff;
+}
+
+.green-cta-button:hover,
+.pink-cta-button:hover{
+    text-decoration: none;
     color: #fff;
     opacity: .5;
-    padding: 15px 100px;
 }
+
+.pink-cta-button{
+    background-color: #D0858B;
+    color: #fff;
+}
+
+
+
 
 .cta-button-white{
     visibility: visible;

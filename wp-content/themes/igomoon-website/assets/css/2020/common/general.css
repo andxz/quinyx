@@ -97,7 +97,7 @@
 .site-header .nav-secondary > .wrap{
     width: 100%;
     max-width: 100%;
-    padding: 0px 20px;
+    padding: 40px 20px 0px 20px;
 }
 
 .genesis-nav-menu a {
@@ -210,7 +210,7 @@
     width: 100%;
     float: left;
     position: relative;
-    top: 40px;
+    /* top: 40px; */
 }
 
 .logos__logo.logos__logo--black{
